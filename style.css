@@ -1,0 +1,100 @@
+/* navbar section */
+.navbar{
+    width: 100%;
+    height: 60px;
+background-color:#FAFAFA;
+    display: flex;
+    gap: 3px;
+    border-radius: 50px;
+
+}
+
+.img{
+    height: 26px;
+    padding-top: 12px;
+    padding-left: 60px;
+
+}
+
+.img1{
+    height: 15px;
+    padding-top: 23px ;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;    
+  margin: 12px;
+  padding-top: 7px;
+  justify-content: center;
+ margin-left: 330px;   
+  padding-bottom: 6px;
+  background-color:#FEFEFF;
+  padding-right: 30px;
+  height: 23px;
+  border-radius: 40px;
+ 
+}
+
+/*@font-face {
+    font-family: 'Poppins-Black';
+    src: url( './font/Poppins-Black.ttf');
+}*/
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+/*font-family: 'Poppins-Black';
+font-size: 12px;*/
+}
+
+.nav-links a:hover {
+  color:navy;
+}
+
+.nav-links li a img{
+    width: 20px;
+}
+
+.text{
+   
+    width: 10%;
+    padding: 6px;
+    margin-left: 40px;
+}
+
+.text li{
+    list-style: none;
+}
+
+
+.text li a {
+   text-decoration: none;
+   color: black;
+
+
+}
+
+button{
+    border-radius: 70px;
+    width: 10%;
+margin-top: 8px;
+    height: 45px;
+    margin-left: 30px;
+  border: 1px #BEBEBE solid;
+  background-color: white;
+
+}
+
+
+
+
+
+
+/* media queries */
+
+@media screen and (min-width:0px) and (max-width:480px)
+ {
+    
+}
