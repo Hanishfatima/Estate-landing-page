@@ -181,13 +181,18 @@ position: absolute;
 }
 .hero-section2{
     display: flex;
-
+ justify-content: center;
+ align-items: center  ;
+ gap: 120px;
+ position: relative;
+ left: 50px;
+ width: 95%;
     
 }
 .part1 
 {
-position: absolute ;
-left: 150px;
+position: relative ;
+
 }
 
 /* img1 */
@@ -195,7 +200,7 @@ left: 150px;
 .part1 img{
     height: 55px;
     position:absolute;
-    top:200px;
+    top:170px;
 
    
     
@@ -204,13 +209,13 @@ left: 150px;
 
 .part1 h1{
   position: relative;
-  top: 260px;
+  top: 230px;
 font-size: 25px;
 }
 
 .part1 p{
     position: relative;
-  top: 260px;
+  top: 228px;
 }
 
 /* img2 */
@@ -218,7 +223,7 @@ font-size: 25px;
 .part2{
 
 position: relative;
-  left:  580px;
+  
 }
 .part2 img{
  /*left:  600px;*/
@@ -230,7 +235,7 @@ position: relative;
 
 .part2 h1{
   position: relative;
-  top: 190px;
+  top: 195px;
 font-size: 25px;
 /*left:  600px;*/
 
@@ -238,23 +243,23 @@ font-size: 25px;
 
 .part2 p{
     position: relative;
-  top: 190px;
+  top: 195px;
   /*left: 590px;*/
 }
 .part3{
   position: relative;
-  left: 750px;
+  
 }
 
 .part3 img{
  position: relative;
  height: 70px;
-  top: 180px;
+  top: 190px;
 }
 
 .part3 h1{
   position: relative;
-  top: 170px;
+  top: 183px;
 font-size: 25px;
 
 
@@ -262,10 +267,102 @@ font-size: 25px;
 
 .part3 p{
     position: relative;
-  top: 170px;
+  top: 183px;
 
 }
 
+/* section3 */
+
+.section3{
+   position: relative;
+   top: 300px;  
+   
+}
+@font-face {
+  font-family:'Poppins-Black' ;
+  src: url(./font/Poppins-Black.ttf);
+}
+
+.section3 h1{
+  text-transform: uppercase;
+font-size: 28px;
+position: relative;
+   left: 80px;
+   width: 30%;
+}
+
+.parah{
+font-family: 'Poppins-Black';
+  font-size: 14px;
+  position: relative;
+     left: 80px;
+     width: 20%;
+}
+.main{  
+  display: flex;
+  position: relative;
+  gap: 30px;
+  justify-content: center;
+  top: 30px;
+}
+
+ .container{
+  border: 1px lightgray solid; 
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right:62px ;
+  padding-bottom: 20px;
+  border-radius: 15px;
+
+
+ }
+
+ .container img{
+     height: 240px;
+    border-radius: 14px;
+    width: 120%;
+    position: relative;
+    
+  
+}
+
+.heading-para{
+  width: 120%;
+  position: relative;
+  left: 6px;
+}
+
+ .heading-para h2{
+  font-style: italic;
+  font-size: 20px;
+     left: 2px;
+    position: relative;
+   
+  
+ }
+
+  .heading-para p{
+    font-size: 15px;
+         left: 5px;
+    position: relative;
+  
+  }
+
+   .price{
+    position: absolute;
+    left:130px;
+    text-decoration: none;
+    color:  black;
+    top: 0px;
+    display: flex;
+   }
+.fa-sharp {
+  color: black;
+position: relative;
+top: 10px;
+left:5px;
+ 
+}
 
 
 /* media queries */
