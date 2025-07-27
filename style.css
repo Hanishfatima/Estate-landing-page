@@ -159,14 +159,14 @@ position: absolute;
 
 .text2
 {position: absolute;
-    top: 700px;
- left: 520px;
+    top: 650px;
+ left: 500px;
 
 
 }
 
-.text2 h1{
-    font-size:50px ;
+.text2 h2{
+    
     position: absolute;
     
     
@@ -174,13 +174,78 @@ position: absolute;
 
 .text2 p 
 {
-    font-size: 16px;
+    bottom: -7px;
+    font-size: 14px;
    position: relative;
-   left: 50px;
+   left: 90px;
+}
+.hero-section2{
+    display: flex;
+
+    
+}
+.part1 
+{
+position: absolute ;
+left: 220px;
+}
+
+/* img1 */
+
+.part1 img{
+    height: 55px;
+    position: absolute;
+    top:200px;
+   
+    
+
+}
+
+.part1 h1{
+  position: relative;
+  top: 260px;
+font-size: 25px;
+}
+
+.part1 p{
+    position: relative;
+  top: 260px;
+}
+
+/* img2 */
+.part1-img2{
+    position: absolute;
+ left: 400px;
+}
+
+.part1 h1{
+  position: relative;
+  top: 260px;
+font-size: 25px;
+
+}
+
+.part1 p{
+    position: relative;
+  top: 260px;
+}
+
+.part1-img3{
+ position: absolute;
+ left: 750px;
 }
 
 
+.part1 h1{
+  position: relative;
+  top: 260px;
+font-size: 25px;
+}
 
+.part1 p{
+    position: relative;
+  top: 260px;
+}
 
 
 /* media queries */
