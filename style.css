@@ -16,7 +16,7 @@ top: 6px;
     height: 26px;
     padding-top: 12px;
     padding-left: 60px;
-
+ 
 }
 
 .img1{
@@ -573,11 +573,110 @@ width: 95%;
 
 @media screen and (min-width:0px) and (max-width:480px)
  {
-    
-    .navbar {
+    body{
+      display:block;
+     
+    }
+  
+.navbar{
+    width:450px;
+    height: 50px;
+background-color:#FAFAFA;
+    display: flex;
+    gap: 3px;
+    border-radius: 50px;
+    left: 7px;
+   right: ;
+position: relative;
+top: 6px;
+background-color: aqua;
+
+}
+
+.img{
+    height: 18px;
+position: relative;
+   left: -30px;
+   top: -3px;
+
+}
+
+.img1{
+    height: 10px;
+   position: relative;
+   top: -6px;
+   left: -28px;
+}
+
+
+.nav-links{
+  display: none;
+}
+
+.text{
+  display: none;
+}
+
+button{
+    border-radius: 70px;
+    width: 25%;
+top: -3px;
+    height: 40px;
+    margin-left: 15px;
+  border: 1px #BEBEBE solid;
+  background-color: white;
+position: relative;
+left: 140px;
+}
+
+.fa-solid{
+
+  position: relative;
+  top: -580px;
+left:410px;
+}
+
+
+
+.hero-section {
     flex-direction: column;
-    height: auto;
-    align-items: center;
-    padding: 10px 0;
+    align-items: flex-start;
+    padding: 20px;
   }
+
+  .hero-content h1 {
+    font-size: 28px;
+  }
+
+  .hero-content h2 {
+    font-size: 14px;
+  }
+
+  .hero-content p {
+    font-size: 14px;
+  }
+
+  .hero-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-form input {
+    width: 100%;
+  }
+
+  .button2 {
+    width: 100%;
+    height: 45px;
+    margin-top: 10px;
+  }
+
+  .hero-img img {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width:480x)
+{
+ 
 }
